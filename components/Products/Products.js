@@ -31,7 +31,7 @@ class Products {
       let activeClass = '';
       let activeText = '';
      
-      if(productsStore.indexOf(id) == -1) {
+      if((productsStore.indexOf(id)) === -1) {
         //если нет записи в локал сторадж, тогда класс остается по умолчанию
         activeText = 'Добавить в корзину';
       } else {
